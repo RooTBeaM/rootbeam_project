@@ -1,0 +1,14 @@
+python-binance
+
+sklearn
+
+scipy
+seaborn
+matplotlib
+mplfinance
+ta
+
+numpy
+pandas
+
+requests

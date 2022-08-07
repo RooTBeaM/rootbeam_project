@@ -131,3 +131,4 @@ dmypy.json
 # new add
 useless
 setting.py
+.gitignore

@@ -129,6 +129,6 @@ dmypy.json
 .pyre/
 
 # new add
-useless
-setting.py
-.gitignore
+save_csv
+keys.py
+test.py

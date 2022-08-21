@@ -112,7 +112,7 @@ def bollinger(df, window=20, window_dev=2, fillna=False):
     df['volatility_bbli'] = indicator_bb.bollinger_lband_indicator()
 
 # Donchian Channel
-def bollinger(df, window=20, offset=0, fillna=False):
+def Donchian(df, window=20, offset=0, fillna=False):
     indicator_dc = ta.volatility.DonchianChannel(high=df['High'], low=df['Low'], close=df['Close'], window=window, offset=offset, fillna=fillna)
     df['volatility_dcl'] = indicator_dc.donchian_channel_lband()
     df['volatility_dch'] = indicator_dc.donchian_channel_hband()

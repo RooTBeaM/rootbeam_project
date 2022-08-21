@@ -61,3 +61,4 @@ def plotgraph(x,y):
 
 df = get_kline_by_period('BTCUSDT', '4h', '2021-1', 'today')
 plotgraph(df.index,df.Close)
+df.to_csv("BTCUSDT.csv")
